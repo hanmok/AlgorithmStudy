@@ -74,12 +74,12 @@ extension AlgorithmStudyTests {
 extension AlgorithmStudyTests {
     func test_Mining() {
         let mining = Mining()
-//        XCTAssertEqual(mining.solution2([1, 3, 2], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 12)
+        XCTAssertEqual(mining.solution([1, 3, 2], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 12)
         
-        XCTAssertEqual(mining.solution2([0, 2, 0], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 5)
+        XCTAssertEqual(mining.solution([1, 0, 0], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 5)
 //        XCTAssertEqual(mining.solution([1, 0, 0], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 12)
         
 //        XCTAssertEqual(mining.getMaxFatigue(["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 116)
-        XCTAssertEqual(mining.solution2([0, 1, 1], ["diamond", "diamond", "diamond", "diamond", "diamond", "iron", "iron", "iron", "iron", "iron", "diamond"]), 50)
+        XCTAssertEqual(mining.solution([0, 1, 1], ["diamond", "diamond", "diamond", "diamond", "diamond", "iron", "iron", "iron", "iron", "iron", "diamond"]), 50)
     }
 }
