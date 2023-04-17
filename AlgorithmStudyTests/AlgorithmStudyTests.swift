@@ -32,5 +32,54 @@ final class AlgorithmStudyTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func test_twoCircles() {
+        let twoCircles = TwoCircles()
 
+//        XCTAssertEqual(twoCircles.getMinX(2, 1), 2)
+//        XCTAssertEqual(twoCircles.getMaxX(3, 2), 2)
+//        XCTAssertEqual(twoCircles.solution(2, 3), 20)
+//        XCTAssertEqual(twoCircles.slowSolution(2, 4), twoCircles.solution(2, 4))
+//        XCTAssertEqual(twoCircles.slowSolution(3, 5), twoCircles.solution(3, 5))
+        
+        XCTAssertEqual(twoCircles.slowSolution(3, 5), 56)
+        XCTAssertEqual(twoCircles.solution(3, 5), 56)
+        
+//        XCTAssertEqual(twoCircles.slowSolution(3, 5), 48)
+        XCTAssertEqual(twoCircles.slowSolution(100, 200), twoCircles.solution(100, 200))
+//        XCTAssertEqual(twoCircles.slowSolution(300, 1000), twoCircles.solution(300, 1000))
+    }
+    
+    func test_targetingSystem() {
+        let targeting = TargetingSystem()
+        let sol = targeting.solution([[4,5],[4,8],[10,14],[11,13],[5,12],[3,7],[1,4]])
+        XCTAssertEqual(sol, 3)
+    }
+}
+
+// MARK: - SeeSaw
+extension AlgorithmStudyTests {
+    func test_couple() {
+        let seeSaw = SeeSaw()
+        XCTAssertEqual(seeSaw.areCouple(100, 100), true)
+        XCTAssertEqual(seeSaw.areCouple(180, 100), false)
+        XCTAssertEqual(seeSaw.areCouple(180, 270), true)
+        XCTAssertEqual(seeSaw.areCouple(180, 270), true)
+        
+        XCTAssertEqual(seeSaw.solution([100, 180, 360, 100, 270]), 4)
+    }
+}
+
+
+extension AlgorithmStudyTests {
+    func test_Mining() {
+        let mining = Mining()
+//        XCTAssertEqual(mining.solution2([1, 3, 2], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 12)
+        
+        XCTAssertEqual(mining.solution2([0, 2, 0], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 5)
+//        XCTAssertEqual(mining.solution([1, 0, 0], ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 12)
+        
+//        XCTAssertEqual(mining.getMaxFatigue(["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]), 116)
+        XCTAssertEqual(mining.solution2([0, 1, 1], ["diamond", "diamond", "diamond", "diamond", "diamond", "iron", "iron", "iron", "iron", "iron", "diamond"]), 50)
+    }
 }

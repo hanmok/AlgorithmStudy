@@ -16,6 +16,10 @@
 		9AD8855329E850540076194F /* AlgorithmStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8855229E850540076194F /* AlgorithmStudyTests.swift */; };
 		9AD8855D29E850540076194F /* AlgorithmStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8855C29E850540076194F /* AlgorithmStudyUITests.swift */; };
 		9AD8855F29E850540076194F /* AlgorithmStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8855E29E850540076194F /* AlgorithmStudyUITestsLaunchTests.swift */; };
+		9AD8856C29E850840076194F /* TwoCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8856B29E850840076194F /* TwoCircles.swift */; };
+		9AD8856E29E953000076194F /* TargetingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8856D29E953000076194F /* TargetingSystem.swift */; };
+		9AD8857129EAAB080076194F /* SeeSaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8857029EAAB080076194F /* SeeSaw.swift */; };
+		9AD8857329EC53AB0076194F /* Mining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8857229EC53AB0076194F /* Mining.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		9AD8855829E850540076194F /* AlgorithmStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD8855C29E850540076194F /* AlgorithmStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmStudyUITests.swift; sourceTree = "<group>"; };
 		9AD8855E29E850540076194F /* AlgorithmStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9AD8856B29E850840076194F /* TwoCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoCircles.swift; sourceTree = "<group>"; };
+		9AD8856D29E953000076194F /* TargetingSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingSystem.swift; sourceTree = "<group>"; };
+		9AD8857029EAAB080076194F /* SeeSaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeSaw.swift; sourceTree = "<group>"; };
+		9AD8857229EC53AB0076194F /* Mining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mining.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 				9AD8853F29E850500076194F /* ViewController.swift */,
 				9AD8854129E850500076194F /* Main.storyboard */,
 				9AD8854429E850530076194F /* Assets.xcassets */,
+				9AD8856F29EAAAF50076194F /* Problems */,
 				9AD8854629E850530076194F /* LaunchScreen.storyboard */,
 				9AD8854929E850530076194F /* Info.plist */,
 			);
@@ -125,6 +134,17 @@
 				9AD8855E29E850540076194F /* AlgorithmStudyUITestsLaunchTests.swift */,
 			);
 			path = AlgorithmStudyUITests;
+			sourceTree = "<group>";
+		};
+		9AD8856F29EAAAF50076194F /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				9AD8856B29E850840076194F /* TwoCircles.swift */,
+				9AD8856D29E953000076194F /* TargetingSystem.swift */,
+				9AD8857029EAAB080076194F /* SeeSaw.swift */,
+				9AD8857229EC53AB0076194F /* Mining.swift */,
+			);
+			path = Problems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +280,11 @@
 			files = (
 				9AD8854029E850500076194F /* ViewController.swift in Sources */,
 				9AD8853C29E850500076194F /* AppDelegate.swift in Sources */,
+				9AD8857329EC53AB0076194F /* Mining.swift in Sources */,
+				9AD8856E29E953000076194F /* TargetingSystem.swift in Sources */,
+				9AD8856C29E850840076194F /* TwoCircles.swift in Sources */,
 				9AD8853E29E850500076194F /* SceneDelegate.swift in Sources */,
+				9AD8857129EAAB080076194F /* SeeSaw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

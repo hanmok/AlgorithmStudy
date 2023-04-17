@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "96D1753C-02B0-42FF-922B-1561EAED6DDD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31A56364-7DC1-464D-913D-A2785240BD16"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgorithmStudy/Problems/SeeSaw.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "solution(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "31A56364-7DC1-464D-913D-A2785240BD16 - fee04e3221b5a41c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmStudy.SeeSaw.solution(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int64"
+                  moduleName = "AlgorithmStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/Desktop/AlgorithmStudy/AlgorithmStudy/Problems/SeeSaw.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "5576">
+               </Location>
+               <Location
+                  uuid = "31A56364-7DC1-464D-913D-A2785240BD16 - fee04e3221b5a41c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgorithmStudy.SeeSaw.solution(Swift.Array&lt;Swift.Int&gt;) -&gt; Swift.Int64"
+                  moduleName = "AlgorithmStudy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/Desktop/AlgorithmStudy/AlgorithmStudy/Problems/SeeSaw.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "5372">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "322E85CF-9CA2-44C4-849E-57EA0005C83E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgorithmStudy/Problems/Mining.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "solution2(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7F936F2-81A7-41A0-B207-7EBD3EEBA7A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgorithmStudy/Problems/Mining.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "solution2(_:_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
